@@ -35,6 +35,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 is_valid_qrcode use function get_qrdata and always checksum.
 Arguments
  - data: data in qrcode
+
 Return
  - boolean (true, false)
 
@@ -43,6 +44,7 @@ read data follow thai qr standard and return false is not follow standard.
 Arguments
  - data: data in qrcode
  - checksum: boolean (default: false)
+
 Return
  - false (error)
  - array
