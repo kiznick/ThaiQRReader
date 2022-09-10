@@ -1,4 +1,13 @@
 <?php
+    /**
+     * @package    ThaiQRReader
+     * @author     Yoswaris Lawpaiboon <me@kiznick.in.th>
+     * @copyright  Copyright (c) 2022 Yoswaris Lawpaiboon.
+     * @license    https://creativecommons.org/licenses/by-sa/4.0/ Attribution-ShareAlike 4.0 International License. (CC BY SA 4.0)
+     * @version    1.0.0
+     * @deprecated valid and parse data follow Thai Qr Standard.
+    **/
+    
     namespace kiznick;
     
     class ThaiQRReader {
