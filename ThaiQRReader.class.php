@@ -22,7 +22,7 @@
                 return false;
             }
 
-            if($checksum && (substr($data, -4) != strtoupper(dechex($this->crc16(substr($data, 0, -4)))))) {
+            if($checksum && (substr($data, -4) != strtoupper(str_pad(dechex($this->crc16(substr($data, 0, -4))), 4, "0", STR_PAD_LEFT)))) {
                 return false;
             }
     
