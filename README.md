@@ -1,8 +1,5 @@
 # ThaiQRReader
-valid and parse data follow Thai Qr Standard
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)  
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+valid and parse data following the Thai Qr Standard
 
 ## Get Start
 ```php
@@ -40,7 +37,7 @@ Return
  - boolean (true, false)
 
 ### get_qrdata(data[, checksum])
-read data follow thai qr standard and return false is not follow standard.
+read data follow the thai qr standard, and return false is not follow the standard.
 Arguments
  - data: data in qrcode
  - checksum: boolean (default: false)
